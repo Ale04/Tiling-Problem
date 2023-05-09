@@ -5,7 +5,7 @@ import numpy as np
 
 class Grid:
 
-	""" Simula el problema de adoquinamietno """
+	""" Simula el problema de adoquinamiento """
 	def __init__(self, size):
 
 		""" Crea un nuevo adoquin """
@@ -23,7 +23,7 @@ class Grid:
 
 
 	def ppave(self, cur_size, posX, posY):
-		""" Metodo recursivo para adoquinar la cuadricula """
+		""" Adoquina o llena la cuadricula """
 
 		i = 0
 		j = 0
@@ -55,8 +55,8 @@ class Grid:
 					i = m
 					j = n
 
-		half1 = posX + cur_size/2 #col
-		half2 = posY + cur_size/2 #row
+		half1 = posX + cur_size/2 # col
+		half2 = posY + cur_size/2 # row
 
 		pos1 = half1 - 1
 		pos2 = half2 - 1
@@ -82,7 +82,7 @@ class Grid:
 
 
 	def set_value(self, (a1, a2), (b1, b2), (c1, c2)):
-		""" Dadas tres coordenadas, les asigna un vcalor """
+		""" Dadas tres coordenadas, les asigna un valor """
 
 		self.val += 1
 
@@ -95,5 +95,3 @@ class Grid:
 	def get_grid(self):
 		return self.grid
       
-#g = Grid(1)
-#print(g.get_grid())

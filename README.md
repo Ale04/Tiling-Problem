@@ -1,40 +1,32 @@
-# Programa 01. Adoquinamiento
-## Autor: Ortega Garcia Alejandra - 420002495
+# Tiling Problem (Problema de Adoquinamiento)
 
-### Para ejecutar el programa
+## Descripcion
+Dada una cuadricula de $m \times m$, donde $m$ es de la forma $2^k$, $k \geq 1$. En la cuadricula existe un *cuadro especial* que se coloca de manera arbitraria y podra ser cubierto por ninguna otra pieza en forma de *L*. 
 
-* Es necesario tener instalada la version 2.7.18 de pyhton, para ello puedes ejecutar los siguientes comandos:
+![Alt text](grid.gif)
+
+## Requerimientos
+
+Es necesario tener instalada la version 2.7.18 de pyhton
 ```
-	sudo apt-add-repository universe
+sudo apt-add-repository universe
 
-	sudo apt update
+sudo apt update
 
-	sudo apt install python2-minimal
+sudo apt install python2-minimal
 ```
   
-* Igualmente, se necesita instalar las bibliotecas de pyhton (pygame y numpy), ejecuta en la terminal:
-	
-```
-	sudo apt install python-pygame
-
-	sudo apt-get update
-
-	sudo apt install python-numpy
-
-```
-
-  o tambien puedes ejecutar:
-
+Igualmente, se necesita instalar las bibliotecas de pyhton (`pygame` y `numpy`)
 ``` 
-    sudo apt-get install python-pip 
+sudo apt-get install python-pip 
 
-	pip install numpy
+pip2 install numpy pygame
 ```
 
 
-* Para ejecutar el programa en `Ortega_Garcia_420002459/src/main.py`, ejecuta el siguiente comando
+## Uso
 
 ```
-	python main.py <tamanio de la cuadricula>
+python main.py <tamanio de la cuadricula>
 ```
 

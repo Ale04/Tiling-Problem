@@ -68,7 +68,7 @@ class Main:
 
 	
 	def random_colors(self, max_value):
-		""" Genera colores n random """
+		""" Genera n colores random """
 		return [tuple(np.random.choice(range(256), size = 3)) for i in range(max_value + 1)]
 
 
