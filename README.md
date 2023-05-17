@@ -1,7 +1,7 @@
 # Tiling Problem (Problema de Adoquinamiento)
 
 ## Descripcion
-Dada una cuadricula de $m \times m$, donde $m$ es de la forma $2^k$, $k \geq 1$. En la cuadricula existe un *cuadro especial* que se coloca de manera arbitraria y podra ser cubierto por ninguna otra pieza en forma de *L*. 
+Dada una cuadricula de $m \times m$, donde $m$ es de la forma $2^k$, $k \geq 1$. En la cuadricula existe un *cuadro especial* que se coloca de manera arbitraria y no podra ser cubierto por ninguna otra pieza en forma de *L*. 
 
 ![Alt text](grid.gif)
 
